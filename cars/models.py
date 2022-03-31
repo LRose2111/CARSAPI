@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Cars(models.Model):
+class Car(models.Model):
     make = models.CharField(max_length=255)
     model = models.CharField(max_length=255)
     year = models.IntegerField()
